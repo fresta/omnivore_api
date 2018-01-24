@@ -3,7 +3,7 @@ require 'openssl'
 module OmnivoreApi
   class Client
 
-    API_VERSION = '0.1'
+    API_VERSION = '1.0'
     DEFAULT_SERVER = 'https://api.omnivore.io'
 
     attr_reader :api_key, :server, :connection
